@@ -1,0 +1,10 @@
+<h1>Dataset: <a href='https://www.kaggle.com/datasets/themrityunjaypathak/imdb-top-100-movies'>here</a></h1>
+
+<% @types.each do |type| %>
+  <h2>Field name: <span style="color: green"><%= instance_variable_get("@#{type}").name %></span></h2>
+  <h3>min: <%= instance_variable_get("@#{type}").min_value %>, max: <%= instance_variable_get("@#{type}").max_value%></h3>
+  <h3>k: <%= instance_variable_get("@#{type}").k %></h3>
+  <h3>interval length: <%= instance_variable_get("@#{type}").interval_length %></h3>
+  <h3>intervals - <%= instance_variable_get("@#{type}").intervals.join(', ') %></h3>
+  <%= area_chart instance_variable_get("@#{type}").hash %>
+<% end %>
