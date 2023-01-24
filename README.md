@@ -1,24 +1,6 @@
-# README
+Ссылка на задеплоенный сайт: http://big-data-lectures.alwaysdata.net/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Логика подсчета находится в app/services/data/calculator_service.rb
 
-Things you may want to cover:
+![изображение](https://user-images.githubusercontent.com/79691727/214408885-051bbec4-f4c3-4839-9c91-7b695fb549e1.png)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
